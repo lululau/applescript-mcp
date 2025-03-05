@@ -9,6 +9,9 @@
     "start": "node dist/index.js",
     "dev": "ts-node --esm src/index.ts"
   },
+  "bin": {
+    "applescript-mcp": "dist/index.js"
+  },
   "keywords": [
     "mcp",
     "applescript",
@@ -17,7 +20,7 @@
   "author": "Josh Rutkowski",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.1.0"
+    "@modelcontextprotocol/sdk": "^0.6.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

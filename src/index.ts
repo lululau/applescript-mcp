@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { AppleScriptFramework } from "./framework.js";
 import { systemCategory } from "./categories/system.js";
 import { calendarCategory } from "./categories/calendar.js";
